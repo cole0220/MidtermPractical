@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indianapolis Food Fair</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: white;
+            font-family: Arial, sans-serif;
+            color: black;
+            margin: 0;
+            padding: 10px;
+        }
+        header {
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            padding-bottom: 20px;
+            position: relative;
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            left: 10px; 
+        }
+        h1 {
+            color: black;
+            font-size: 72px;
+            margin: 0;
+        }
+        .categories-container {
+            background-color: aquamarine;
+            border-radius: 20px;
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+        .category {
+            position: relative;
+            width: 150px;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            text-align: center;
+        }
+        .category img {
+            width: 350px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 15px;
+            border: 2px solid black;
+        }
+        .category span {
+            margin-top: 10px;
+            font-weight: bold;
+            color: black;
+        }
+        .input-container {
+            display: flex;
+            align-items: center; 
+            margin-top: 10px;
+        }
+        .input-container {
+            margin-left: 10px; 
+            padding: 5px;
+        }
+        .center-text {
+            margin-top: 20px;
+            color: black;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="C:\Users\clmle\Downloads\CIT212_midterm_pics\home.jpg" alt="Indianapolis Food Fair Logo" class="logo"></a>
+        <h1>Greek: Greek Islands INC </h1>
+    </header>
+    <main>
+        <div class="categories-container">
+            <div class="category">
+                <div class="input-container">
+                    <img src="C:\Users\clmle\School\CIT-21200\greekislands.jpg" alt="greekislands">
+                </div>
+                <p>4906 S Meridian St, Indianapolis, IN 46225 Reservations - Call: (317) 636-0700</p>
+            </div>
+            <div class="center-text">
+                <p>Greek Islands Restaurant has been a staple of Indianapolis for over 30 years and is the longest-operating Greek restaurant in Indianapolis. We are a family-owned business and have been proudly serving Indianapolis since 1987. The Stergiopoulos family welcomes you to Greek Islands Restaurant where everyone is family and the cheese is always on fire. Opa!</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
